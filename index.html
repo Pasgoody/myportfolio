@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- General section -->
+    <section class="myPortfolio">
+        <div class="software">
+            <div class="generalcontainer">
+                <!-- NAV-LINKS -->
+                <nav>
+                    <section class="nav-section">
+
+                        <div class="logo-wrapper">
+                            <div class="logo">
+                                <img src="/assets/img/loader-removebg-preview (2).png" alt="">
+                            </div>
+                        </div>
+                        <div class="nav-links-wrapper" id="navLinks">
+                            <ul class="nav-links">
+
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#projects">PROJECTS</a></li>
+                                <li><a href="#services">SERVICES</a>
+                                <li>
+                                <li><a href="contact">CONTACT</a></li>
+                            </ul>
+                            <div class="navBtn">
+                                <button>LET'S TALK</button>
+                            </div>
+                        </div>
+
+                        <div class="menu" onclick="toggleMenu()" id="menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+
+                    </section>
+                </nav>
+                <!-- end ofNAV-LINKS -->
+
+            </div>
+
+        </div>
+        <!-- HEADER-SECTION -->
+        <div class="generalpadding">
+
+            <section class="headercontent" id="home">
+                <div class="homeimg">
+                    <img src="assets/img/myprofile.jpeg" alt="">
+                </div>
+                <div class="headerContent-wrapper">
+                    <div class="h">
+                        <h1>Hi,I'm <span class="profile-name">Nweke Paschal</span></h1>
+                        <span class="autotype"> </span>
+                        <p>Hello, I’m a software developer who loves turning ideas into functional and visually
+                            appealing
+                            digital products. Whether it’s building responsive websites, writing clean code, or solving
+                            tough bugs I enjoy every bit of the process.</p>
+                        <div class="getintouch">
+                            <div class="arrow">
+                                <h2>Get in touch</h2>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div class="social-links">
+                                <div class="facebook-icon">
+                                    <a href="https://facebook.com/yourusername" target="_blank"><i
+                                            class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="instagram-icon">
+                                    <a href="https://www.instagram.com/i_am_a_software_developer12/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="whatssapp-icon">
+                                    <a href="https://wa.me/2348138714808" target="_blank"><i
+                                            class="fa-brands fa-whatsapp"></i></a>
+
+                                </div>
+                                <div class="thread-icon">
+                                    <a href="https://www.threads.net/@i_am_a_software_developer12" target="_blank"
+                                        rel="noopener noreferrer"><i class="fa-brands fa-threads"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- works -->
+
+            <section class="work-content">
+                <div class="l">
+                    <div class="work-wrapper">
+                        <div class="worksamples">
+                            <img src="assets/img/calliesoup.png" alt="">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                        <div class="worksamples">
+                            <img src="assets/img/carportfolio.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="worksamples">
+                            <img src="assets/img/ppp.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="worksamples">
+                            <img src="assets/img/soapcompany.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END -->
+            <!-- ABOUT ME -->
+            <section class="aboutme-content" id="about">
+                <div class="about-me-wrapper">
+                    <div class="aboutmeimage">
+                        <img src="assets/img/myprofile.jpeg" alt="">
+
+                    </div>
+
+                    <div class="aboutme-wrapper">
+                        <div class="aboutmebtnwrapper">
+                            <button>ABOUT US</button>
+                            <h1 class="autotypeintro">I AM AVAILABLE FOR ANY SOFTWARE RELATED PROJECT</h1>
+                            <p>I’m open to collaborating on software projects of any size from planning to deployment.
+                                Whether
+                                it’s building responsive websites, optimizing existing systems, or developing custom
+                                tools,
+                                I’m
+                                committed to delivering solutions that are efficient, user-friendly, and tailored to
+                                your
+                                needs.
+                                My goal is to turn your ideas into functional, high-quality software that makes an
+                                impact
+                            </p>
+                        </div>
+
+                        <div class="aboutmeXperience">
+                            <div class="aboutexperience-wrapper">
+                                <div class="google-reviews">
+                                    <div class="review">
+                                        <h1>280+</h1>
+                                        <p>Google Reviews</p>
+                                    </div>
+                                </div>
+                                <div class="years-experience">
+                                    <div class="experience">
+                                        <h1>15+</h1>
+                                        <p>Years Experience</p>
+                                    </div>
+                                </div>
+                                <div class="Awardwinning">
+                                    <div class="awarding-experience">
+                                        <h1>49+</h1>
+                                        <p>Award winning</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aboutbtn1">
+                            <button class="aboutbtn">
+                                <p>Get in touch</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+
+    <!-- END OF ABOUT ME -->
+    <!--END  -->
+    <section class="myproject-content" id="projects">
+        <div class="project-wrapper">
+            <div class="project">
+                <h1>MY PROJECTS</h1>
+            </div>
+            <div class="projectsamples-wrapper">
+                <div class="the-projects">
+                    <img src="assets/img/API.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the United States. Stay
+                            updated on breaking news, politics, sports, entertainment, and more—all in one place, easy
+                            to read, and always up to date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-projects">
+                    <img src="assets/img/API.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the United States.
+                            Stay updated on breaking news, politics, sports, entertainment, and more—all in one
+                            place, easy to read, and always up to date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-projects">
+                    <img src="assets/img/form.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the United
+                            States. Stay updated on breaking news, politics, sports, entertainment, and more—all
+                            in one place, easy to read, and always up to date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-projects">
+                    <img src="assets/img/ecommercep.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the United
+                            States. Stay updated on breaking news, politics, sports, entertainment, and
+                            more—all in one place, easy to read, and always up to date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-projects">
+                    <img src="assets/img/Ecommerceproject.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the
+                            United States. Stay updated on breaking news, politics, sports,
+                            entertainment, and more—all in one place, easy to read, and always up to
+                            date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-projects">
+                    <img src="assets/img/ecomerce.png" alt="" data-aos="fade-up" data-aos-duration="900">
+                    <div class="text">
+                        <h2>GNews US</h2>
+                        <p>GNews US brings you the latest headlines from trusted sources across the
+                            United States. Stay updated on breaking news, politics, sports,
+                            entertainment, and more—all in one place, easy to read, and always up to
+                            date.”
+                        </p>
+                        <div class="theprojectbtn">
+                            <a href="https://pasgoody.github.io/newswebsite/"><button>check out<i
+                                        class="fa-solid fa-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-content" id="services">
+        <div class="service-wrapper">
+            <div class="service-headline">
+                <div class="r">
+                    <h1>MY Services</h1>
+                    <p>what do i offer you?</p>
+                </div>
+            </div>
+            <div class="service-cards">
+                <div class="cards" data-aos="flip-right" data-aos-duration="900">
+                    <div class="img">
+                        <img src="assets/img/mentorship.png" alt="">
+                        <h2>mentorship</h2>
+                    </div>
+                    <p>I don't just write clean code — I teach others to do the same without breaking their keyboards.
+                        If you’re looking for a programmer who can mentor with patience, clarity, and a touch of
+                        humor,I’m your guy😂"</p>
+                </div>
+                <div class="cards" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/responsive.png" alt="">
+                    <h2>Responsive Web Design</h2>
+                    <p>I specialize in building fully responsive websites that adapt seamlessly across desktops,
+                        tablets, mobile devices.If you already have a site, I can run a free responsive check and show
+                        you how it performs on different devices.</p>
+                </div>
+                <div class="cards" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/seo.png" alt="">
+                    <h2>Performance Optimization</h2>
+                    <p>I build websites optimized for speed, smooth loading, and high performance, ensuring faster load
+                        times, better user experience, and improved SEO.Your site won’t just look great — it will load
+                        in under 3 seconds, even on mobile, because I optimize for real-world speed.</p>
+                </div>
+                <div class="cards" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/app-development.png" alt="">
+                    <h2>Intereactive Web App Development</h2>
+                    <p>I specialize in creating visually appealing, high-performance websites using modern technologies.
+                        From simple landing pages to complex web applications, I ensure your online presence is robust
+                        and engaging.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="programming-language">
+        <div class="language-content">
+            <div class="language-headline">
+                <h1>What I Know</h1>
+                <p>Languages,frameworks and tools</p>
+            </div>
+            <div class="cue-languages">
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/css.png" alt="">
+                    <h1>CSS</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/html.png" alt="">
+                    <h1>html</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/js.png" alt="">
+                    <h1>VANILLA-JAVASCRIPT</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/python.png" alt="">
+                    <h1>Python</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/mongodb.png" alt="">
+                    <h1>mongodb</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/nativewind.png" alt="">
+                    <h1>NATIVE-WIND</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/fluter.png" alt="">
+                    <h1>Flutter</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/mysql.png" alt="">
+                    <h1>MYSQL</h1>
+                </div>
+                <div class="progrminglanguage" data-aos="flip-right" data-aos-duration="900">
+                    <img src="assets/img/mainjs.png" alt="">
+                    <h1>JAVASCRIPT</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact-page">
+        <div class="contact">
+            <div class="contact-page-content">
+                <div class="contact-headline">
+                    <h1>GET IN TOUCH</h1>
+                    <form action="https://formspree.io/f/mvgboeld" method="POST" class="myForm" id="myFORM">
+                        <label for="name" class="name">Name</label>
+
+                        <input type="text" id="name" placeholder="Enter your name" name="name">
+
+                        <span for="name" id="nameError"></span>
+
+                        <label for="email" class="email">Email</label>
+
+                        <input type="email" id="email" placeholder="Enter your email" name="email">
+
+                        <span for="email" id="emailError"></span>
+
+                        <label for="textarea">Phone/WhatssApp no(optional)</label>
+
+                        <textarea placeholder="Open to all critics..." id="textarea" name="message"></textarea>
+
+                        <span id="textareaError"></span>
+
+                        <button type="submit">send messages</button>
+                    </form>
+
+                </div>
+                <div class="contactimg">
+                    <img src="assets/img/contact.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <footer class="footer">
+            <p>© 2025 Software developer. All rights reserved.</p>
+            <div class="socials">
+                <a href="#">LinkedIn</a> |
+                <a href="#">GitHub</a> |
+                <a href="#">Twitter</a>
+            </div>
+        </footer>
+
+    </section>
+    </section>
+    <!-- end of the section -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var typed = new Typed('.autotype', {
+                strings: ['Full stack developer.', 'Web Designer.', 'Word Press developer.', 'Mobile Developer.'],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            })
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
